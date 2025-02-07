@@ -51,7 +51,7 @@ app.post("/shortner", async (req, res) => {
   return res.json({
     message:
       "shorturl created succefully!! && longURL and shortUrl saved in mongoDB!!!!!!!!!!",
-    url: `http://localhost:4006/${url.shortUrl}`,
+    url: `https://link-shortner-backend-a7or.onrender.com/${url.shortUrl}`,
   });
 });
 
